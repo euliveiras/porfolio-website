@@ -1,0 +1,154 @@
+.mainContent {
+  height: 100%;
+  width: 100%;
+
+  color: whitesmoke;
+  background-color: RGB(59, 66, 82);
+}
+
+.sectionContainer {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.arrowContainer {
+  margin: 2% 0 5% 0;
+  border: 1px solid;
+  border-color: whitesmoke;
+  border-radius: 0.9rem;
+
+  padding: 0.9rem;
+  transition: border 0.3s;
+
+}
+
+.arrowContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color 0.3s;
+  color: whitesmoke;
+}
+
+.arrowContainer:hover {
+  color: var(--blue-sky);
+  border-color: 1px solid var(--blue-sky)
+}
+
+.arrowContainer:hover a {
+  color: var(--blue-sky);
+}
+
+.animatedArrow {
+  margin-left: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.arrowContainer:hover .animatedArrow {
+  transform: rotate(90deg);
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5%;
+}
+
+.textContainer h1{
+  margin-right: 0.9rem;
+}
+
+.textContainer img{
+  border-radius: 8rem;
+}
+
+.textContainer strong {
+  color: var(--word-highlighted);
+}
+
+.navigationMenu {
+  display: inline-flex;
+  z-index: 2;
+
+  color: whitesmoke;
+
+  width: 100%;
+  top: -10%;
+  transition: top 0.3s;
+}
+
+.navigationMenuFixed{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigationMenu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  border: 1px solid var(--blue-sky);
+  background-color: whitesmoke;
+  color: var(--blue-sky);
+
+  width: 30%;
+  height: 9vh;
+
+  transition: color 0.4s;
+}
+
+.navigationMenu a:hover {
+  color: var(--word-highlighted);
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  height: 120vh;
+}
+
+.selfImageContainer {
+  height: 100%;
+  width: 50%;
+
+  position: relative;
+}
+
+.selfImageContainer img{
+  position: relative;
+  z-index: 1;
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.aboutTextContainer {
+  height: 100%;
+  width: 50%;
+
+  background-color: black;
+}
+
+.skillsContainer {
+  background-color: blue;
+}
+
+.blogContainer {
+  background-color: green;
+}
