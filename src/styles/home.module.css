@@ -18,8 +18,7 @@
 
 .arrowContainer {
   margin: 2% 0 5% 0;
-  border: 1px solid;
-  border-color: whitesmoke;
+  border: 1px solid whitesmoke;
   border-radius: 0.9rem;
 
   padding: 0.9rem;
@@ -38,7 +37,7 @@
 
 .arrowContainer:hover {
   color: var(--blue-sky);
-  border-color: 1px solid var(--blue-sky)
+  border: 1px solid var(--blue-sky)
 }
 
 .arrowContainer:hover a {
