@@ -1,0 +1,43 @@
+.navigationMenu {
+  display: inline-flex;
+  z-index: 2;
+
+  overflow: hidden;
+
+  width: 100%;
+  top: -10%;
+  transition: top 0.3s;
+}
+
+.navigationMenuFixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navigationMenu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  font-weight: 500;
+
+  border: 1px solid whitesmoke;
+  background-color: darken(#3b4252, 8%);
+  color: whitesmoke;
+
+  width: 30%;
+  height: 9vh;
+
+  transition: color 0.4s;
+}
+
+.navigationMenu a:hover {
+  color: var(--word-highlighted);
+}
+
+.navigationMenuFixed ~ section {
+  margin-top: 9vh;
+}

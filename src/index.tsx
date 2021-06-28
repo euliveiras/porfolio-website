@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //
-import App from './App';
-import "./styles/globals.css"
+import App from './views/App';
+import "./globals.scss"
 
 
 ReactDOM.render(

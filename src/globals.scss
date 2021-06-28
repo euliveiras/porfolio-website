@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --word-highlighted: #e31b6d;
+  --blue-sky: #04c2c9;
+  --bg-color: #3b4252;
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+button {
+  cursor: pointer;
+}

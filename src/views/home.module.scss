@@ -3,7 +3,12 @@
   width: 100%;
 
   color: whitesmoke;
-  background-color: RGB(59, 66, 82);
+  // background-color: RGB(59, 66, 82);
+  background-color: whitesmoke;
+}
+
+.homeSection {
+  background: var(--bg-color);
 }
 
 .sectionContainer {
@@ -23,7 +28,6 @@
 
   padding: 0.9rem;
   transition: border 0.3s;
-
 }
 
 .arrowContainer a {
@@ -37,7 +41,7 @@
 
 .arrowContainer:hover {
   color: var(--blue-sky);
-  border: 1px solid var(--blue-sky)
+  border: 1px solid var(--blue-sky);
 }
 
 .arrowContainer:hover a {
@@ -57,58 +61,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: 5%;
 }
 
-.textContainer h1{
-  margin-right: 0.9rem;
+.textContainer h1 {
+  margin-right: 4rem;
 }
 
-.textContainer img{
-  border-radius: 8rem;
+.textContainer img {
+  border-radius: 10rem;
 }
 
 .textContainer strong {
-  color: var(--word-highlighted);
-}
-
-.navigationMenu {
-  display: inline-flex;
-  z-index: 2;
-
-  color: whitesmoke;
-
-  width: 100%;
-  top: -10%;
-  transition: top 0.3s;
-}
-
-.navigationMenuFixed{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navigationMenu a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: 2rem;
-  font-weight: 500;
-
-  border: 1px solid var(--blue-sky);
-  background-color: whitesmoke;
-  color: var(--blue-sky);
-
-  width: 30%;
-  height: 9vh;
-
-  transition: color 0.4s;
-}
-
-.navigationMenu a:hover {
   color: var(--word-highlighted);
 }
 
@@ -119,29 +82,46 @@
   flex-direction: row;
 
   height: 120vh;
+  background: whitesmoke;
 }
 
 .selfImageContainer {
-  height: 100%;
+  height: 50%;
   width: 50%;
 
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.selfImageContainer img{
+.selfImageContainer img {
   position: relative;
   z-index: 1;
 
-  height: 100%;
-  width: 100%;
+  // height: 90%;
+  // width: 50%;
+  margin: 0 10% 20% 0;
 
+  border-radius: 20rem;
 }
 
 .aboutTextContainer {
-  height: 100%;
-  width: 50%;
+  margin: 0 10% 10% 10%;
+  height: 60%;
+  width: 80%;
 
-  background-color: black;
+  .aboutText {
+    margin-top: 5em;
+    p {
+      font-size: 1.5rem;
+      color: black;
+    }
+  }
+
+  .aboutSkills {
+    margin-top: 3em;
+  }
 }
 
 .skillsContainer {

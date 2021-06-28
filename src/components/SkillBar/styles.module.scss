@@ -1,0 +1,35 @@
+.containerDiv {
+  margin-top: 1.5em;
+  height: 2em;
+  width: 100%;
+  background: darken(whitesmoke, 5%);
+  display: flex;
+
+  .textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    width: 20%;
+    background: var(--blue-sky);
+    padding: 0 2rem;
+
+    p {
+      display: inline-flex;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+  }
+
+  .percentageContainer {
+    background: darken(#04c2c9, 5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
