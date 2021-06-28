@@ -41,3 +41,9 @@
 .navigationMenuFixed ~ section {
   margin-top: 9vh;
 }
+
+@media (max-width: 1024px) {
+  .navigationMenu{
+    display: none;
+  }
+}

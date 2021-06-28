@@ -131,3 +131,47 @@
 .blogContainer {
   background-color: green;
 }
+
+@media (max-width: 1024px) {
+  .homeSection {
+    display: flex;
+    justify-content: start;
+    height: 80%;
+  }
+
+  .textContainer {
+    width: 100%;
+    h1 {
+      margin: 20% 10% 10% 10%;
+    }
+  }
+
+  .arrowContainer {
+    margin-bottom: 20%;
+  }
+
+  .textContainer img {
+    display: none;
+  }
+
+  .aboutContainer {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .textContainer {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .arrowContainer {
+    a {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
