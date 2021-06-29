@@ -56,36 +56,42 @@ export default function Home() {
           id="quem-sou"
           className={`${styles.sectionContainer} ${styles.aboutContainer} `}
         >
-          <div className={styles.aboutTextContainer}>
-            <div className={styles.aboutText}>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Dolor morbi non arcu risus. Mattis enim ut tellus elementum
-                sagittis vitae et. Convallis posuere morbi leo urna molestie.
-                Turpis egestas maecenas pharetra convallis posuere morbi leo.
-                Orci eu lobortis elementum nibh tellus molestie. Pulvinar
-                elementum integer enim neque. Lorem sed risus ultricies
-                tristique nulla aliquet enim tortor at. Consequat semper viverra
-                nam libero justo laoreet sit amet. Elementum facilisis leo vel
-                fringilla est ullamcorper eget nulla facilisi.
-              </p>
-            </div>
-            <div className={styles.aboutSkills}>
-              <SkillBar skillName="javascript" porcentage="70%" />
-              <SkillBar skillName="nodejs" porcentage="50%" />
-              <SkillBar skillName="reactjs" porcentage="50%" />
-              <SkillBar skillName="html" porcentage="50%" />
-              <SkillBar skillName="css" porcentage="40%" />
-            </div>
+          <div className={styles.sectionTitle}>
+            <h2>quem sou</h2>
+            <div />
           </div>
-          <div className={styles.selfImageContainer}>
-            <img
-              src={photo}
-              width={250}
-              height={280}
-              alt="Foto de Matheus Oliveira"
-            />
+          <div className={styles.sectionContent}>
+            <div className={styles.aboutTextContainer}>
+              <div className={styles.aboutText}>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dolor morbi non arcu risus. Mattis enim ut tellus elementum
+                  sagittis vitae et. Convallis posuere morbi leo urna molestie.
+                  Turpis egestas maecenas pharetra convallis posuere morbi leo.
+                  Orci eu lobortis elementum nibh tellus molestie. Pulvinar
+                  elementum integer enim neque. Lorem sed risus ultricies
+                  tristique nulla aliquet enim tortor at. Consequat semper
+                  viverra nam libero justo laoreet sit amet. Elementum facilisis
+                  leo vel fringilla est ullamcorper eget nulla facilisi.
+                </p>
+              </div>
+              <div className={styles.aboutSkills}>
+                <SkillBar skillName="javascript" porcentage="70%" />
+                <SkillBar skillName="nodejs" porcentage="50%" />
+                <SkillBar skillName="reactjs" porcentage="50%" />
+                <SkillBar skillName="html" porcentage="50%" />
+                <SkillBar skillName="css" porcentage="40%" />
+              </div>
+            </div>
+            <div className={styles.selfImageContainer}>
+              <img
+                src={photo}
+                width={250}
+                height={280}
+                alt="Foto de Matheus Oliveira"
+              />
+            </div>
           </div>
         </section>
         <section
