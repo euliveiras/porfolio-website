@@ -112,9 +112,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10%;
 
     h2 {
-      margin-top: 40%;
+      font-size: 3rem;
       color: black;
     }
     div {
@@ -165,6 +166,11 @@
   height: 60%;
   width: 80%;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   .aboutText {
     margin-top: 5em;
     p {
@@ -175,6 +181,7 @@
 
   .aboutSkills {
     margin-top: 3em;
+    width: 100%;
   }
 }
 
