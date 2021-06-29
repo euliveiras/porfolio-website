@@ -15,10 +15,12 @@ export default function Home() {
   }, [scrollRef.current?.offsetTop, scrollRef.current?.offsetHeight]);
 
   const handleScroll = (sticky: number | undefined) => {
-    if (sticky && window.pageYOffset >= sticky) {
-      setFixMenu(true);
-    } else {
-      setFixMenu(false);
+    if (window.screen.width > 1024) {
+      if (sticky && window.pageYOffset >= sticky) {
+        setFixMenu(true);
+      } else {
+        setFixMenu(false);
+      }
     }
   };
 
