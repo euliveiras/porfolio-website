@@ -33,3 +33,14 @@
     }
   }
 }
+
+@media (max-width: 720px) {
+  .containerDiv {
+    .textContainer {
+      width: 25%;
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
