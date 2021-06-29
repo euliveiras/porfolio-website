@@ -153,6 +153,12 @@
   .aboutContainer {
     flex-direction: column;
     height: auto;
+
+    .selfImageContainer {
+      img {
+        margin: 0 10%;
+      }
+    }
   }
 }
 
